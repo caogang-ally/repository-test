@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "MergeList.h"                    //**¡ø02 ÏßĞÔ±í**//
+#include "MergeList.h"                    //**â–²02 çº¿æ€§è¡¨**//
 
-// ²âÊÔº¯Êı£¬´òÓ¡ÔªËØ
+// æµ‹è¯•å‡½æ•°ï¼Œæ‰“å°å…ƒç´ 
 void PrintElem(ElemType e) {
     printf("%d ", e);
 }
@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
     
     int n = 5;
     
-    printf("×÷ÎªÊ¾Àı£¬La³¤¶ÈÉè¶¨Îª %d £¬Lb³¤¶ÈÉè¶¨Îª %d £¬´´½¨LaºÍLb...\n", n, n);
+    printf("ä½œä¸ºç¤ºä¾‹ï¼ŒLaé•¿åº¦è®¾å®šä¸º %d ï¼ŒLbé•¿åº¦è®¾å®šä¸º %d ï¼Œåˆ›å»ºLaå’ŒLb...\n", n, n);
     
     CreateList_Head(&La, n, "TestData_Head.txt");
     printf("La = ");
@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     printf("Lb = ");
     ListTraverse(Lb, PrintElem);
     
-    printf("¹é²¢LaºÍLbÎªLc = ");
+    printf("å½’å¹¶Laå’ŒLbä¸ºLc = ");
     MergeList(&La, &Lb, &Lc);
     ListTraverse(Lc, PrintElem);
     

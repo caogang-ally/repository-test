@@ -33,7 +33,7 @@ void MergeSqList_1(SqList La, SqList Lb, SqList* Lc) {
     while(i <= La_len && j <= Lb_len) {
         GetElem(La, i, &ai);
         GetElem(Lb, j, &bj);
-        printf("i=%d,j=%d\n",i,j);
+        
         // 比较遍历到的元素，先将比较小的元素加入顺序表Lc
         if(ai <= bj) {
             ListInsert(Lc, ++k, ai);
@@ -45,7 +45,6 @@ void MergeSqList_1(SqList La, SqList Lb, SqList* Lc) {
     }
     
     // 如果Lb已遍历完，但La还未遍历完，将La中剩余元素加入Lc
-    printf("k=%d\n",k);
     while(i <= La_len) {
         GetElem(La, i++, &ai);
         ListInsert(Lc, ++k, ai);
@@ -54,9 +53,8 @@ void MergeSqList_1(SqList La, SqList Lb, SqList* Lc) {
     // 如果La已遍历完，但Lb还未遍历完，将Lb中剩余元素加入Lc
     while(j <= Lb_len) {
         GetElem(Lb, j++, &bj);
-        ListInsert(Lc, ++k, bj);//在ListInsert的时候表的长度已经增加了1.
+        ListInsert(Lc, ++k, bj);
     }
-    printf("k=%d,Lc->Length=%d\n",k,Lc->length);
 }
 
 /*

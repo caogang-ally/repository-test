@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/clion/Data-Structure-master/CLion/CourseBook/0608_MFSet
+# Install script for directory: D:/git/repository-test/CLion/CourseBook/0608_MFSet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

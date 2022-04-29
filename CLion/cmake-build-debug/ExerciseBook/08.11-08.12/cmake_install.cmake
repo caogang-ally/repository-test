@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/clion/Data-Structure-master/CLion/ExerciseBook/08.11-08.12
+# Install script for directory: D:/git/repository-test/CLion/ExerciseBook/08.11-08.12
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

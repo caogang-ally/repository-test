@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include "Union.h"      //**¡ø02 ÏßĞÔ±í**//
-#include "SqList.h"     //**¡ø02 ÏßĞÔ±í**//
+#include "Union.h"      //**â–²02 çº¿æ€§è¡¨**//
+#include "SqList.h"     //**â–²02 çº¿æ€§è¡¨**//
 
-// ²âÊÔº¯Êı£¬´òÓ¡ÔªËØ
+// æµ‹è¯•å‡½æ•°ï¼Œæ‰“å°å…ƒç´ 
 void PrintElem(ElemType e) {
-    printf(" value=%d\n ",e);
+    printf("%d ", e);
 }
 
 
@@ -12,32 +12,30 @@ int main(int argc, char** argv) {
     ElemType a[5] = {5, 2, 1, 3, 9};
     ElemType b[7] = {7, 2, 6, 9, 11, 3, 10};
     SqList La, Lb;
-    printf("³õÊ¼»¯Ö®ºóµØÖ·&La=%p\n",&La);
-    printf("³õÊ¼»¯Ö®ºóµØÖ·&Lb=%p\n",&Lb);
     int i;
     
-    // ³õÊ¼»¯La
+    // åˆå§‹åŒ–La
     InitList(&La);
     for(i = 1; i <= 5; i++) {
         ListInsert(&La, i, a[i - 1]);
     }
     
-    // ³õÊ¼»¯Lb
+    // åˆå§‹åŒ–Lb
     InitList(&Lb);
     for(i = 1; i <= 7; i++) {
         ListInsert(&Lb, i, b[i - 1]);
     }
     
-    // Êä³öLa
+    // è¾“å‡ºLa
     printf("La = ");
     ListTraverse(La, PrintElem);
     
-    // Êä³öLb
+    // è¾“å‡ºLb
     printf("Lb = ");
     ListTraverse(Lb, PrintElem);
     
-    // Êä³öĞÂ±íLaµÄÄÚÈİ
-    printf("La = La¡ÈLb = ");
+    // è¾“å‡ºæ–°è¡¨Laçš„å†…å®¹
+    printf("La = LaâˆªLb = ");
     Union(&La, Lb);
     ListTraverse(La, PrintElem);
     

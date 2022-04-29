@@ -1,167 +1,166 @@
 #include <stdio.h>
 #include "Status.h"
-#include "LinkList.h"                        //**¡ø02 ÏßĞÔ±í**//
+#include "LinkList.h"                        //**â–²02 çº¿æ€§è¡¨**//
 
-// ÅĞ¶Ïdata>eÊÇ·ñ³ÉÁ¢
+// åˆ¤æ–­data>eæ˜¯å¦æˆç«‹
 Status CmpGreater(ElemType data, ElemType e) {
     return data > e ? TRUE : FALSE;
 }
 
-// ²âÊÔº¯Êı£¬´òÓ¡ÔªËØ
+// æµ‹è¯•å‡½æ•°ï¼Œæ‰“å°å…ƒç´ 
 void PrintElem(ElemType e) {
-    printf("--%d\n ", e);
+    printf("%d ", e);
 }
 
 
 int main(int argc, char** argv) {
     LinkList L;
-    printf("Create LinkList Pointer L=%p  &L=%p\n",L,&L);
     int i;
     ElemType e;
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ InitList \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ InitList \n");
     {
-        printf("¨€ ³õÊ¼»¯µ¥Á´±í L ...\n");
+        printf("â–ˆ åˆå§‹åŒ–å•é“¾è¡¨ L ...\n");
         InitList(&L);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ListEmpty \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ListEmpty \n");
     {
-        ListEmpty(L) ? printf("¨€ L Îª¿Õ£¡£¡\n") : printf("¨€ L ²»Îª¿Õ£¡\n");
+        ListEmpty(L) ? printf("â–ˆ L ä¸ºç©ºï¼ï¼\n") : printf("â–ˆ L ä¸ä¸ºç©ºï¼\n");
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ListInsert \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ListInsert \n");
     {
         for(i = 1; i <= 8; i++) {
-            printf("¨€ ÔÚ L µÚ %d ¸öÎ»ÖÃ²åÈë \"%d\" ...\n", i, 2 * i);
+            printf("â–ˆ åœ¨ L ç¬¬ %d ä¸ªä½ç½®æ’å…¥ \"%d\" ...\n", i, 2 * i);
             ListInsert(L, i, 2 * i);
         }
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ListTraverse \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ListTraverse \n");
     {
-        printf("¨€ L ÖĞµÄÔªËØÎª£ºL = ");
+        printf("â–ˆ L ä¸­çš„å…ƒç´ ä¸ºï¼šL = ");
         ListTraverse(L, PrintElem);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ListLength \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ListLength \n");
     {
-        printf("¨€ L µÄ³¤¶ÈÎª %d \n", ListLength(L));
+        printf("â–ˆ L çš„é•¿åº¦ä¸º %d \n", ListLength(L));
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ListDelete \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ListDelete \n");
     {
-        printf("¨€ É¾³ıÇ°µÄÔªËØ£ºL = ");
+        printf("â–ˆ åˆ é™¤å‰çš„å…ƒç´ ï¼šL = ");
         ListTraverse(L, PrintElem);
     
-        printf("¨€ ³¢ÊÔÉ¾³ı L ÖĞµÚ 6 ¸öÔªËØ...\n");
+        printf("â–ˆ å°è¯•åˆ é™¤ L ä¸­ç¬¬ 6 ä¸ªå…ƒç´ ...\n");
     
         if(ListDelete(L, 6, &e) == OK) {
-            printf("¨€ É¾³ı³É¹¦£¬±»É¾³ıÔªËØÊÇ£º\"%d\"\n", e);
+            printf("â–ˆ åˆ é™¤æˆåŠŸï¼Œè¢«åˆ é™¤å…ƒç´ æ˜¯ï¼š\"%d\"\n", e);
         } else {
-            printf("¨€ É¾³ıÊ§°Ü£¬µÚ 6 ¸öÔªËØ²»´æÔÚ£¡\n");
+            printf("â–ˆ åˆ é™¤å¤±è´¥ï¼Œç¬¬ 6 ä¸ªå…ƒç´ ä¸å­˜åœ¨ï¼\n");
         }
     
-        printf("¨€ É¾³ıºóµÄÔªËØ£ºL = ");
+        printf("â–ˆ åˆ é™¤åçš„å…ƒç´ ï¼šL = ");
         ListTraverse(L, PrintElem);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ GetElem \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ GetElem \n");
     {
         GetElem(L, 4, &e);
-        printf("¨€ L ÖĞµÚ 4 ¸öÎ»ÖÃµÄÔªËØÎª \"%d\" \n", e);
+        printf("â–ˆ L ä¸­ç¬¬ 4 ä¸ªä½ç½®çš„å…ƒç´ ä¸º \"%d\" \n", e);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ LocateElem \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ LocateElem \n");
     {
         i = LocateElem(L, 7, CmpGreater);
         GetElem(L, i, &e);
-        printf("¨€ L ÖĞµÚÒ»¸öÔªËØÖµ´óÓÚ \"7\" µÄÔªËØÊÇ \"%d\" \n", e);
+        printf("â–ˆ L ä¸­ç¬¬ä¸€ä¸ªå…ƒç´ å€¼å¤§äº \"7\" çš„å…ƒç´ æ˜¯ \"%d\" \n", e);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ PriorElem \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ PriorElem \n");
     {
         ElemType cur_e = 6;
     
         if(PriorElem(L, cur_e, &e) == OK) {
-            printf("¨€ ÔªËØ \"%d\" µÄÇ°ÇıÎª \"%d\" \n", cur_e, e);
+            printf("â–ˆ å…ƒç´  \"%d\" çš„å‰é©±ä¸º \"%d\" \n", cur_e, e);
         } else {
-            printf("¨€ ÔªËØ \"%d\" µÄÇ°Çı²»´æÔÚ£¡\n", cur_e);
+            printf("â–ˆ å…ƒç´  \"%d\" çš„å‰é©±ä¸å­˜åœ¨ï¼\n", cur_e);
         }
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ NextElem \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ NextElem \n");
     {
         ElemType cur_e = 6;
     
         if(NextElem(L, cur_e, &e) == OK) {
-            printf("¨€ ÔªËØ \"%d\" µÄºó¼ÌÎª \"%d\" \n", cur_e, e);
+            printf("â–ˆ å…ƒç´  \"%d\" çš„åç»§ä¸º \"%d\" \n", cur_e, e);
         } else {
-            printf("¨€ ÔªËØ \"%d\" µÄºó¼Ì²»´æÔÚ£¡\n", cur_e);
+            printf("â–ˆ å…ƒç´  \"%d\" çš„åç»§ä¸å­˜åœ¨ï¼\n", cur_e);
         }
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ ClearList \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ ClearList \n");
     {
-        printf("¨€ Çå¿Õ L Ç°£º");
-        ListEmpty(L) ? printf(" L Îª¿Õ£¡£¡\n") : printf(" L ²»Îª¿Õ£¡\n");
+        printf("â–ˆ æ¸…ç©º L å‰ï¼š");
+        ListEmpty(L) ? printf(" L ä¸ºç©ºï¼ï¼\n") : printf(" L ä¸ä¸ºç©ºï¼\n");
         
         ClearList(L);
         
-        printf("¨€ Çå¿Õ L ºó£º");
-        ListEmpty(L) ? printf(" L Îª¿Õ£¡£¡\n") : printf(" L ²»Îª¿Õ£¡\n");
+        printf("â–ˆ æ¸…ç©º L åï¼š");
+        ListEmpty(L) ? printf(" L ä¸ºç©ºï¼ï¼\n") : printf(" L ä¸ä¸ºç©ºï¼\n");
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ DestroyList \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ DestroyList \n");
     {
-        printf("¨€ Ïú»Ù L Ç°£º");
-        L ? printf(" L ´æÔÚ£¡\n") : printf(" L ²»´æÔÚ£¡£¡\n");
+        printf("â–ˆ é”€æ¯ L å‰ï¼š");
+        L ? printf(" L å­˜åœ¨ï¼\n") : printf(" L ä¸å­˜åœ¨ï¼ï¼\n");
         
         DestroyList(&L);
         
-        printf("¨€ Ïú»Ù L ºó£º");
-        L ? printf(" L ´æÔÚ£¡\n") : printf(" L ²»´æÔÚ£¡£¡\n");
+        printf("â–ˆ é”€æ¯ L åï¼š");
+        L ? printf(" L å­˜åœ¨ï¼\n") : printf(" L ä¸å­˜åœ¨ï¼ï¼\n");
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ CreateList_Head \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ CreateList_Head \n");
     {
         LinkList L;
         CreateList_Head(&L, 5, "TestData_Head.txt");
-        printf("¨€ Í·²å·¨½¨Á¢µ¥Á´±í L = ");
+        printf("â–ˆ å¤´æ’æ³•å»ºç«‹å•é“¾è¡¨ L = ");
         ListTraverse(L, PrintElem);
     }
     PressEnterToContinue(debug);
     
     
-    printf("¨€¨€¨€¨€¨€¨€¨€¨€ CreateList_Tail \n");
+    printf("â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ CreateList_Tail \n");
     {
         LinkList L;
         CreateList_Tail(&L, 5, "TestData_Tail.txt");
-        printf("¨€ Î²²å·¨½¨Á¢µ¥Á´±í L = ");
+        printf("â–ˆ å°¾æ’æ³•å»ºç«‹å•é“¾è¡¨ L = ");
         ListTraverse(L, PrintElem);
     }
     PressEnterToContinue(debug);

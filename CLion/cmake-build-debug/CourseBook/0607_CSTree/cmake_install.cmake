@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/clion/Data-Structure-master/CLion/CourseBook/0607_CSTree
+# Install script for directory: D:/git/repository-test/CLion/CourseBook/0607_CSTree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

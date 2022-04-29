@@ -12,7 +12,7 @@
 #include "Status.h"     //**▲01 绪论**//
 
 /* 宏定义 */
-#define LIST_INIT_SIZE 5  // 顺序表存储空间的初始分配量
+#define LIST_INIT_SIZE 100  // 顺序表存储空间的初始分配量
 #define LISTINCREMENT  10   // 顺序表存储空间的分配增量
 
 /* 顺序表元素类型定义 */
@@ -57,19 +57,6 @@ int ListLength(SqList L);
  * 通常，i的含义应该指索引，即从0开始计数。
  */
 Status GetElem(SqList L, int i, ElemType* e);
-
-/*
- * ████████ 算法2.6 ████████
- *
- * 查找
- *
- * 返回顺序表中首个与e满足Compare关系的元素位序。
- * 如果不存在这样的元素，则返回0。
- *
- *【备注】
- * 元素e是Compare函数第二个形参
- */
-int LocateElem(SqList L, ElemType e, Status(Compare)(ElemType, ElemType));
 
 /*
  * ████████ 算法2.4 ████████

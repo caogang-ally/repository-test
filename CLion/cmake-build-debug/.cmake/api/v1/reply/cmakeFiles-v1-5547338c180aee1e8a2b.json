@@ -1,0 +1,1062 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"path" : "Status/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0201_SqList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0202_Union/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0203_MergeSqList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0204_LinkList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0205_MergeList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0206_SLinkList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0207_Difference/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0208_DuLinkList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0209_ELinkList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0210_MergeEList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0211_Polynomial/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0301_SqStack/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0302_Conversion/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0303_LineEdit/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0304_Maze/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0305_Expression/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0306_Hanoi/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0307_LinkQueue/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0308_SqQueue/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0309_BankQueuing/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0401_SString/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0402_HString/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0403_LString/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0404_KMP/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0405_WordList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0501_Array/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0502_TSMatrix/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0503_RLSMatrix/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0504_CrossList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0505_GList-HT/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0506_GList-E/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0507_MPList/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0601_SqBiTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0602_BiTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0603_BiTriTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0604_BiThrTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0605_PTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0606_CTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0607_CSTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0608_MFSet/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0609_HuffmanTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0610_PowerSet/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0611_NQueens/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0701_MGraph/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0702_ALGraph/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0703_OLGraph/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0704_AMLGraph/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0705_SpanningTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0706_StronglyConnectedComponents/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0707_MinimumSpanningTree/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0708_ArticulationPoints/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0709_TopologicalSorting/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0710_CriticalPathMethod/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0711_ShortestPaths/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0801_BoundaryTagMethod/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0802_BuddySystem/CMakeLists.txt"
+		},
+		{
+			"path" : "CourseBook/0803_GarbageCollection/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/01.16/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/01.17/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/01.19/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/01.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.10/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.11/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.12/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.13/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.14/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.15/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.16-02.18/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.19-02.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.21/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.22/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.23/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.24/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.25/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.26/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.27/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.28/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.29/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.30/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.31/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.32/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.33/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.34-02.36/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.37/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.38/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.39-02.40/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/02.41-02.42/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.15/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.16/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.17/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.18/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.19/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.21/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.22/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.23/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.24/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.25/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.26/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.27/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.28/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.29/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.30+03.32/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.31/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.33/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/03.34/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.10/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.11/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.12/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.13/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.14/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.15-04.17/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.18/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.19/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.21/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.22/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.23/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.24-04.26/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.27/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.28-04.29/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.30/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/04.31/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.17/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.18/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.19/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.21/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.22/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.23/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.24/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.25/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.26/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.27/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.28-05.29/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.30.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.30.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.31/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.32.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.32.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.33.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.33.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.34.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.34.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.35-05.36/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.37.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.37.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.38.1/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/05.38.2/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.33-06.34/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.35/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.36/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.37-06.38/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.39/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.40/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.41-06.49/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.50/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.51/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.52/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.53/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.54/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.55/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.56-06.58/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.59-06.62/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.63/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.64/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.65/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.66/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.67/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.68/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.69/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.70/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.71/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.72/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.73-06.74/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/06.75-06.76/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.14+07.16/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.15/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.17/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.18-07.19/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.20/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.21/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.22-07.23/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.24/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.25/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.26/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.27/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.28/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.29/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.30/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.31/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.32/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.33/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.34/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.35/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.36-07.37/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.38/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.39/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.40/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.41/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/07.42/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/08.11-08.12/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/08.13/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/08.14/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/08.15/CMakeLists.txt"
+		},
+		{
+			"path" : "ExerciseBook/08.16/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/git/repository-test/CLion/cmake-build-debug",
+		"source" : "D:/git/repository-test/CLion"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

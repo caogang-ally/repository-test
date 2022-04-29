@@ -15,17 +15,15 @@
  */
 Status InitList(SqList* L) {
     // 分配指定容量的内存，如果分配失败，则返回NULL
-    printf("InitList初始化数组传入的&L的地址为：%p,sizeof_L=%d\n",L,sizeof(L));
     (*L).elem = (ElemType*) malloc(LIST_INIT_SIZE * sizeof(ElemType));
-    printf("通过allocate分配内存后首地址(*L).elem为:%p\n",(*L).elem);
     if((*L).elem == NULL) {
         // 存储内存失败
         exit(OVERFLOW);
     }
-
+    
     (*L).length = 0;                    // 初始化顺序表长度为0
     (*L).listsize = LIST_INIT_SIZE;     // 顺序表初始内存分配量
-
+    
     return OK;                          // 初始化成功
 }
 
@@ -53,53 +51,10 @@ Status GetElem(SqList L, int i, ElemType* e) {
     if(i < 1 || i > L.length) {
         return ERROR;                    //i值不合法
     }
-
+    
     *e = L.elem[i - 1];
-
+    
     return OK;
-}
-
-/*
- * ████████ 算法2.6 ████████
- *
- * 查找
- *
- * 返回顺序表中首个与e满足Compare关系的元素位序。
- * 如果不存在这样的元素，则返回0。
- *
- *【备注】
- * 元素e是Compare函数第二个形参
- */
-int LocateElem(SqList L, ElemType e, Status(Compare)(ElemType, ElemType)) {//函数名是一
-    int i;
-    ElemType* p;
-
-    // 确保顺序表结构存在
-    if(L.elem == NULL) {
-        return ERROR;
-    }
-
-    /*
-     * i的初值为第1个元素的位序
-     *
-     * 其实，更自然的写法是将i初始化为第1个元素的索引
-     * 但由于教材中是按位序计数的，所以这里仍写作位序
-     */
-    i = 1;
-
-    // p的初值为第1个元素的存储位置
-    p = L.elem;
-
-    // 遍历顺序表
-    while(i <= L.length && !Compare(*p++, e)) {
-        ++i;
-    }
-
-    if(i <= L.length) {
-        return i;
-    } else {
-        return 0;
-    }
 }
 
 /*
@@ -115,48 +70,46 @@ int LocateElem(SqList L, ElemType e, Status(Compare)(ElemType, ElemType)) {//函
 Status ListInsert(SqList* L, int i, ElemType e) {
     ElemType* newbase;
     ElemType* p, * q;
-
+    
     // 确保顺序表结构存在
     if(L == NULL || (*L).elem == NULL) {
         return ERROR;
     }
-
+    
     // i值越界
     if(i < 1 || i > (*L).length + 1) {
         return ERROR;
     }
-
+    
     // 若存储空间已满，则增加新空间
     if((*L).length >= (*L).listsize) {
         // 基于现有空间扩容
         newbase = (ElemType*) realloc((*L).elem, ((*L).listsize + LISTINCREMENT) * sizeof(ElemType));
-        printf("ListInsert传入的结构体&L的值是:%p &L的size是%d\n",L,sizeof(L));
-        printf("存储空间已满，重新通过realloc分配的空间的首地址为%p\n",newbase);
         if(newbase == NULL) {
             // 存储内存失败
             exit(OVERFLOW);
         }
-
+        
         // 新基址
         (*L).elem = newbase;
         // 存的存储空间
         (*L).listsize += LISTINCREMENT;
     }
-
+    
     // q为插入位置
     q = &(*L).elem[i - 1];
-
+    
     // 1.右移元素，腾出位置
     for(p = &(*L).elem[(*L).length - 1]; p >= q; --p) {
         *(p + 1) = *p;
     }
-
+    
     // 2.插入e
     *q = e;
-
+    
     // 3.表长增1
     (*L).length++;
-
+    
     return OK;
 }
 
@@ -167,11 +120,10 @@ Status ListInsert(SqList* L, int i, ElemType e) {
  */
 void ListTraverse(SqList L, void(Visit)(ElemType)) {
     int i;
-
+    
     for(i = 0; i < L.length; i++) {
-        printf("L.elem[%d]address=%p",i,&(L.elem[i]));
         Visit(L.elem[i]);
     }
-
+    
     printf("\n");
 }

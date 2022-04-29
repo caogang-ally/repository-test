@@ -8,7 +8,7 @@
 #define LINKLIST_H
 
 #include <stdio.h>
-#include <stdlib.h>     // 提供 malloc、realloc、free、exit 原型 您好
+#include <stdlib.h>     // 提供 malloc、realloc、free、exit 原型
 #include <string.h>     // 提供 strstr 原型
 #include "Status.h"     //**▲01 绪论**//
 

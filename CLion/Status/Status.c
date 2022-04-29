@@ -160,7 +160,7 @@ void PressEnterToContinue(Boolean debug) {
         printf("\n");
     }
     
-    fflush(stdin);//此语句的作用是清空输入缓冲区。
+    fflush(stdin);
 }
 
 /*

@@ -35,7 +35,7 @@ typedef int Boolean;
 
 
 /* 全局变量*/
-extern Boolean debug;   // 是否使用debug模式一般的在.h文件重定义的变量需要加extern参数。
+extern Boolean debug;   // 是否使用debug模式
 
 
 /*

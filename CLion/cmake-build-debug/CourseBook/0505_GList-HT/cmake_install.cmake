@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/clion/Data-Structure-master/CLion/CourseBook/0505_GList-HT
+# Install script for directory: D:/git/repository-test/CLion/CourseBook/0505_GList-HT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
