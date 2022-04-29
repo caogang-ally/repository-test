@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/CourseBook/0201_SqList/SqList-main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0201_SqList/SqList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0202_Union/SqList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0202_Union/Union-main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0202_Union/Union.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0203_MergeSqList/MergeSqList-main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0203_MergeSqList/SqList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0204_LinkList/LinkList-main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0204_LinkList/LinkList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/CourseBook/0205_MergeList/MergeList-main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Status/Status.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "CourseBook/0707_MinimumSpanningTree",
+		"source" : "CourseBook/0707_MinimumSpanningTree"
+	}
+}
